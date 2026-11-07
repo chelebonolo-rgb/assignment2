@@ -1,0 +1,175 @@
+.root {
+    -fx-background-color: #101014;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.root-pane {
+    -fx-background-color: #101014;
+}
+
+.top-bar {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent #1D1D23 transparent;
+    -fx-border-width: 0 0 1 0;
+}
+
+.app-icon {
+    -fx-font-size: 26px;
+    -fx-text-fill: #A879FF;
+    -fx-font-weight: bold;
+    -fx-padding: 6 10 6 0;
+}
+
+.app-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: 800;
+    -fx-text-fill: #F4F4F6;
+    -fx-letter-spacing: 0.8px;
+}
+
+.app-subtitle {
+    -fx-font-size: 10px;
+    -fx-text-fill: #8A8B93;
+    -fx-letter-spacing: 1.2px;
+}
+
+.action-button {
+    -fx-background-color: #A879FF;
+    -fx-text-fill: #F4F4F6;
+    -fx-font-size: 12px;
+    -fx-font-weight: 700;
+    -fx-padding: 9 16 9 16;
+    -fx-background-radius: 12px;
+    -fx-border-radius: 12px;
+    -fx-border-color: transparent;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(168, 121, 255, 0.25), 8, 0.3, 0, 2);
+}
+
+.action-button:hover {
+    -fx-background-color: #B88CFF;
+}
+
+.sidebar {
+    -fx-background-color: #17171D;
+    -fx-border-color: #22242B;
+    -fx-border-width: 1px;
+    -fx-border-radius: 18px;
+    -fx-background-radius: 18px;
+    -fx-padding: 16px;
+}
+
+.library-title {
+    -fx-font-size: 12px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #A879FF;
+    -fx-letter-spacing: 1.4px;
+}
+
+.playlist-view {
+    -fx-background-color: #17171D;
+    -fx-control-inner-background: #17171D;
+    -fx-background-radius: 14px;
+    -fx-border-color: #24252C;
+    -fx-border-width: 1px;
+    -fx-border-radius: 14px;
+    -fx-padding: 0;
+}
+
+.playlist-view .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #D9D9DF;
+    -fx-padding: 10px 12px;
+    -fx-font-size: 13px;
+    -fx-font-family: "Segoe UI";
+    -fx-border-color: transparent;
+}
+
+.playlist-view .list-cell:selected,
+.playlist-view .list-cell:selected .text {
+    -fx-text-fill: #F4F4F6;
+}
+
+.playlist-item-selected {
+    -fx-background-color: rgba(168, 121, 255, 0.18);
+    -fx-background-radius: 10px;
+    -fx-border-color: rgba(168, 121, 255, 0.5);
+    -fx-border-width: 1px;
+    -fx-border-radius: 10px;
+}
+
+.media-pane {
+    -fx-background-color: #17171D;
+    -fx-background-radius: 22px;
+    -fx-border-color: #2A2A32;
+    -fx-border-radius: 22px;
+    -fx-border-width: 1px;
+    -fx-padding: 0;
+}
+
+.song-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #F4F4F6;
+}
+
+.status-label {
+    -fx-font-size: 11px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #A879FF;
+    -fx-letter-spacing: 1.2px;
+}
+
+.progress-slider, .volume-slider {
+    -fx-background-color: transparent;
+}
+
+.progress-slider .track, .volume-slider .track {
+    -fx-background-color: #2C2E36;
+    -fx-pref-height: 6px;
+    -fx-background-radius: 6px;
+}
+
+.progress-slider .thumb, .volume-slider .thumb {
+    -fx-background-color: #A879FF;
+    -fx-pref-width: 12px;
+    -fx-pref-height: 12px;
+    -fx-background-radius: 12px;
+    -fx-border-color: transparent;
+    -fx-effect: dropshadow(gaussian, rgba(168, 121, 255, 0.4), 8, 0.3, 0, 2);
+}
+
+.control-button {
+    -fx-background-color: #1E1F27;
+    -fx-text-fill: #F4F4F6;
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-padding: 12px 16px;
+    -fx-min-width: 52px;
+    -fx-min-height: 52px;
+    -fx-background-radius: 26px;
+    -fx-border-color: #2B2C34;
+    -fx-border-width: 1px;
+    -fx-border-radius: 26px;
+    -fx-cursor: hand;
+}
+
+.control-button:hover {
+    -fx-background-color: #252833;
+    -fx-border-color: #A879FF;
+}
+
+.control-button:pressed {
+    -fx-background-color: #A879FF;
+    -fx-border-color: #A879FF;
+}
+
+.time-label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #B0B0B8;
+    -fx-font-weight: 600;
+}
+
+.button {
+    -fx-cursor: hand;
+}
